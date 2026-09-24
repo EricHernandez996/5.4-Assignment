@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+h1 {
+    color: #222;
+}
+
+h2 {
+    color: #555;
+}
+
+#basketballs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+
+.ball {
+    font-size: 35px;
+}
+
+#shotCounter {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#trainingMessage {
+    margin: 25px auto;
+    padding: 20px;
+    width: 300px;
+    background-color: lightgray;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
